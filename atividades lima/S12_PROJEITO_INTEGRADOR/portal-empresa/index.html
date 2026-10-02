@@ -4,13 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>AURON - Início</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #111;
+            color: white;
+            margin: 20px;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+        }
+
+        h1, h2 {
+            color: orangered;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .banner {
+            width: 100%;
+            height: auto;
+        }
+
+        .produto {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+        }
+
+        footer {
+            margin-top: 30px;
+        }
+    </style>
 </head>
 
 <body>
 
     <header>
-        <img src="imagens/logo.png" alt="Logo da AURON">
         <h1>AURON</h1>
         <p>Mais que esporte, é você.</p>
     </header>
@@ -23,6 +66,10 @@
     </nav>
 
     <main>
+
+        <section>
+            <img class="banner" src="imagem/banner.png.png" alt="Banner da AURON">
+        </section>
 
         <section>
             <h2>Bem-vindo à AURON</h2>
@@ -39,21 +86,32 @@
         </section>
 
         <section>
-            <h2>Encontre seu estilo</h2>
+            <h2>Destaques</h2>
 
             <article>
                 <h3>Roupas esportivas</h3>
-                <p>Produtos para treinos e atividades físicas.</p>
-                <img src="imagens/servico1.jpg"
-                     alt="Roupas esportivas da AURON">
+
+                <img class="produto"
+                     src="imagem/camisa.jpg"
+                     alt="Camisa esportiva">
+
+                <p>
+                    Roupas para treinos e atividades físicas.
+                </p>
             </article>
 
             <article>
-                <h3>Acessórios</h3>
-                <p>Acessórios para acompanhar sua rotina esportiva.</p>
-                <img src="imagens/servico2.jpg"
-                     alt="Acessórios esportivos da AURON">
+                <h3>Tênis esportivos</h3>
+
+                <img class="produto"
+                     src="imagem/tenis amarelo.jpg"
+                     alt="Tênis esportivo amarelo">
+
+                <p>
+                    Calçados para diferentes modalidades esportivas.
+                </p>
             </article>
+
         </section>
 
     </main>
